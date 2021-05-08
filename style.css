@@ -1,0 +1,48 @@
+#me{
+    position:absolute;
+    opacity:1.0;
+    width:100%;
+    height:800px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    color:red;
+    display:table;
+    background: linear-gradient (#60ebeb,#27ae60);
+    font-family: 'Girassol';
+}
+img{
+    width:500px;
+    height:500px;
+}
+body{
+    margin:0;
+    padding-top:800px;
+    text-align: center;
+}
+title{
+    color: red;
+}
+.menu{
+    list-style:none;
+    font-family:cursive;
+    float:top;
+    top:10px;
+    right:30px;
+    cursor:pointer;
+    color:darkblue;
+    padding-left:1400px
+}
+.line {
+    width: 77px;
+    height: 10px;
+    background-color: crimson;
+    margin: 8px auto;
+}
+img:hover{
+    transform: scale(0.9)
+}
+html { 
+    scroll-behavior: smooth; 
+}
